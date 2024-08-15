@@ -22,19 +22,24 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
+
         String nombre = update.getMessage().getFrom().getUserName();
         String apellido = update.getMessage().getFrom().getLastName();
         String nickname = update.getMessage().getFrom().getFirstName();
+
         //Se verifica si la actualización contiene un mensaje y si ese mensaje tiene texto.
         //Luego se procesa el contenido del mensaje y se responde según el caso.
+
         if (update.hasMessage() && update.getMessage().hasText()) {
             System.out.println("Hola" + nickname + "Tu nombre es" + nombre + "apellido" + apellido);
             String message_text = update.getMessage().getText();
             long chat_id = update.getMessage().getChatId();
+
             if (message_text.toLowerCase().equals("holi")) {
                 System.out.println("User id: " + chat_id + " Message: " + message_text);
             }
         }
+
 
         } //end fun
     public void sendText(Long who, String what){

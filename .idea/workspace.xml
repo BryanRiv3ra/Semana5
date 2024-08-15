@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f88faff-024a-42f7-b67e-1f6d618aa870" name="Changes" comment="">
+    <list default="true" id="2f88faff-024a-42f7-b67e-1f6d618aa870" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BotTelegram/tareaBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BotTelegram/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotTelegram/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BotTelegram/PokemonBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotTelegram/PokemonBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/umg/ejercicio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umg/ejercicio/Main.java" afterDir="false" />
@@ -26,18 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BryanRiv3ra"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BryanRiv3ra&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BryanRiv3ra/Semana5.git",
-    "accountId": "d73c08cb-0bb3-4376-b0ac-e07b6c9df3ae"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BryanRiv3ra/Semana5.git&quot;,
+    &quot;accountId&quot;: &quot;d73c08cb-0bb3-4376-b0ac-e07b6c9df3ae&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -81,10 +81,25 @@
       <updated>1723303752525</updated>
       <workItem from="1723303753598" duration="5617000" />
       <workItem from="1723516009841" duration="363000" />
+      <workItem from="1723612660610" duration="485000" />
+      <workItem from="1723657106454" duration="5961000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1723612795944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723612795944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

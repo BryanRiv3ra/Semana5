@@ -29,6 +29,7 @@ public class PokemonBot extends TelegramLongPollingBot {
                 String messageText = update.getMessage().getText();
                 long chatId = update.getMessage().getChatId();
 
+
                 if (messageText.startsWith("/pokemon")) {
                     // Extraer el nombre del Pokémon del mensaje
                     String[] parts = messageText.split(" ");
