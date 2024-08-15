@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f88faff-024a-42f7-b67e-1f6d618aa870" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BotTelegram/tareaBot.java" afterDir="false" />
+    <list default="true" id="2f88faff-024a-42f7-b67e-1f6d618aa870" name="Changes" comment="commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BotTelegram/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotTelegram/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BotTelegram/PokemonBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotTelegram/PokemonBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umg/ejercicio/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umg/ejercicio/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BotTelegram/tareaBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotTelegram/tareaBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +80,7 @@
       <workItem from="1723303753598" duration="5617000" />
       <workItem from="1723516009841" duration="363000" />
       <workItem from="1723612660610" duration="485000" />
-      <workItem from="1723657106454" duration="5961000" />
+      <workItem from="1723657106454" duration="7969000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -92,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723612795944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 2">
+      <option name="closed" value="true" />
+      <created>1723689712173</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723689712173</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
   </component>
 </project>

@@ -60,17 +60,24 @@ public class tareaBot extends TelegramLongPollingBot {
                 }
             }
             if (message_text.startsWith("/grupo")) {
-                String message = messageText.substring(8).trim();
-                List<Long> CHAT_IDS = Arrays.asList(6688363556L, 6597569075L, 6710213754L, 556677889L);
-
-                for (Long chatId : CHAT_IDS) {
-                    try {
-                        sendText(chatId, message);
-                    } catch (TelegramApiException exception) {
-                        exception.printStackTrace(); // Maneja la excepción aquí
+                String message = "Como tan muchacho";
+                    List<Long> CHAT_IDS = Arrays.asList(6688363556L, 6597569075L, 6710213754L, 6709392176L);
+                    for (Long chatId : CHAT_IDS) {
+                        try {
+                            sendText(chatId, message);
+                        } catch (Exception e) {
+                            throw new RuntimeException(e);
+                        }
                     }
-                }
+            }
+            if (update.hasMessage() && update.getMessage().hasText()) {
+                System.out.println("Hola" + nickname + "Tu nombre es " + nombre + " apellido " + apellido);
+                String message = update.getMessage().getText();
+                long chatid = update.getMessage().getChatId();
 
+                if (message_text.toLowerCase().equals("hola")) {
+                    System.out.println("User id: " + chatid + " Message: " + message);
+                }
             }
         } //end fun
     }
@@ -80,9 +87,9 @@ public class tareaBot extends TelegramLongPollingBot {
                     .chatId(who.toString()) //Who are we sending a message to
                     .text(what).build();    //Message content
             try {
-                execute(sm);                        //Actually sending the message
-            } catch (TelegramApiException e) {
-                e.printStackTrace(); // Maneja la excepción aquí/Any error will be printed here
+                execute(sm); // Este método podría no lanzar TelegramApiException en tu versión
+            } catch (Exception e) { // Captura cualquier excepción genérica
+                e.printStackTrace(); // Imprime el error en la consola para depuración
             }
 
         }

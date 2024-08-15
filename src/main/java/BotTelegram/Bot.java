@@ -27,8 +27,6 @@ public class Bot extends TelegramLongPollingBot {
         String apellido = update.getMessage().getFrom().getLastName();
         String nickname = update.getMessage().getFrom().getFirstName();
 
-        //Se verifica si la actualización contiene un mensaje y si ese mensaje tiene texto.
-        //Luego se procesa el contenido del mensaje y se responde según el caso.
 
         if (update.hasMessage() && update.getMessage().hasText()) {
             System.out.println("Hola" + nickname + "Tu nombre es" + nombre + "apellido" + apellido);
