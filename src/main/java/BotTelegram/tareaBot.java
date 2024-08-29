@@ -59,6 +59,7 @@ public class tareaBot extends TelegramLongPollingBot {
                     sendText(chat_id, "Por favor, usa el formato: /cambio [cantidad en euros]");
                 }
             }
+
             if (message_text.startsWith("/grupo")) {
                 String message = "Como tan muchacho";
                     List<Long> CHAT_IDS = Arrays.asList(6688363556L, 6597569075L, 6710213754L, 6709392176L);
